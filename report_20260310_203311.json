@@ -1,0 +1,48 @@
+{
+  "target": "127.0.0.1",
+  "scan_time": "2026-03-10 20:33:11.731581",
+  "hosts": [
+    {
+      "ip": "127.0.0.1",
+      "hostname": "localhost",
+      "state": "up",
+      "open_ports": [
+        {
+          "port": 135,
+          "protocol": "tcp",
+          "service": "msrpc",
+          "version": "",
+          "product": "Microsoft Windows RPC"
+        },
+        {
+          "port": 445,
+          "protocol": "tcp",
+          "service": "microsoft-ds",
+          "version": "",
+          "product": ""
+        },
+        {
+          "port": 1042,
+          "protocol": "tcp",
+          "service": "afrog",
+          "version": "",
+          "product": ""
+        },
+        {
+          "port": 1043,
+          "protocol": "tcp",
+          "service": "boinc",
+          "version": "",
+          "product": ""
+        },
+        {
+          "port": 9010,
+          "protocol": "tcp",
+          "service": "websocket",
+          "version": "0.8.2",
+          "product": "WebSocket++"
+        }
+      ]
+    }
+  ]
+}
